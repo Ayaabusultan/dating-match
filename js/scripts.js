@@ -307,7 +307,7 @@ $("document").ready(function(){
           "images/lowr.jpg",
           "images/cam.jpg",
           "images/jim.jpg" ,
-          "images/clo.jpg",
+          "images/george.jpg",
           "images/evans.jpg",
           "images/bb.jpg"]
         var firstImg = images[maxIndex];
