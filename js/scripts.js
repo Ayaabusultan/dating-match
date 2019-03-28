@@ -275,6 +275,21 @@ $("document").ready(function(){
       $("form#dating").submit(function(event){
         //to make sure that the user answered all the 6 questions
         // var bad =0;
+        // for (i=0; i<6; i++){
+        //   if (checker[i] === 0){
+        //     bad=1;
+        //
+        //     if (bad===1){
+        //       $("#help-inline").empty().text("Please make sure to answer all the questions.");
+        //       $("#result").hide();
+        //       break;
+        //     }
+        //   }
+        //   else {
+        //       $("#help-inline").empty();
+        //       $("#result").show();
+        //     }
+        // }
 
         for (i=0; i<6; i++){
           if (checker[i] !== 1){
